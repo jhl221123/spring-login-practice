@@ -1,13 +1,13 @@
-package practice.variouslogin.jwt.controller;
+package practice.variouslogin.jwt.api.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
+public class AdminController {
 
-	@GetMapping("/")
-	public String home() {
-		return "home";
+	@GetMapping("/admin")
+	public String admin() {
+		return "admin";
 	}
 }

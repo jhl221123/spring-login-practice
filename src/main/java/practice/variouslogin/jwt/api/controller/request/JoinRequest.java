@@ -1,4 +1,4 @@
-package practice.variouslogin.jwt.controller.request;
+package practice.variouslogin.jwt.api.controller.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,12 +1,12 @@
-package practice.variouslogin.jwt.service;
+package practice.variouslogin.jwt.api.service;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
-import practice.variouslogin.jwt.controller.request.JoinRequest;
-import practice.variouslogin.jwt.entity.User;
-import practice.variouslogin.jwt.repository.UserRepository;
+import practice.variouslogin.jwt.api.controller.request.JoinRequest;
+import practice.variouslogin.jwt.domain.entity.User;
+import practice.variouslogin.jwt.domain.repository.UserRepository;
 
 @Service
 @RequiredArgsConstructor

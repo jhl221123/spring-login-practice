@@ -1,4 +1,4 @@
-package practice.variouslogin.jwt.entity;
+package practice.variouslogin.jwt.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
