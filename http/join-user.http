@@ -1,0 +1,8 @@
+# 회원가입
+POST localhost:8080/join
+Content-Type: application/json
+
+{
+  "username": "jhl221123",
+  "password": "12341234"
+}

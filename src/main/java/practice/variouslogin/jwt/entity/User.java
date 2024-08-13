@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -22,4 +23,12 @@ public class User {
 	private String password;
 
 	private String role;
+
+	@Builder
+	private User(Long id, String name, String password, String role) {
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.role = role;
+	}
 }
